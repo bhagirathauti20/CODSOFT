@@ -161,6 +161,42 @@ body{
     font-family: 'Vollkorn', serif;
     margin-top: 10px;
 }
+/* EXPERIENCE SECTION */
+.myExpereience{
+    padding:15px 0px 30px 15px;
+    background-color: #F9FBE7;
+}
+.Experience{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+.exp{
+    text-align: center;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #191414;
+    height: 250px;
+    width: 300px;
+    margin: 15px 0px;
+    transition: ease-in 0.3s;
+    border-radius: 10px;
+}
+.exp:hover{
+    border: 3px solid red;
+    background-color: #f9c3c3;
+    color: #fff;
+    box-shadow: 3px 3px orangered;
+    font-weight: 800;
+}
+.exp p{
+    letter-spacing: 2px;
+    font-family: 'Vollkorn', serif;
+    margin-top: 10px;
+}
 
 /* PROJECT SECTION */
 .projects{
@@ -248,7 +284,7 @@ body{
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  white-space: nowrap;
+  white-space: nowrap;  
 }
 
 .buttons input:focus {
