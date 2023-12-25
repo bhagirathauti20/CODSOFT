@@ -117,10 +117,10 @@ body{
     border-radius: 10px;
 }
 .edu:hover{
-    border: 3px solid #4b3232;
-    background-color: #c5b8b8;
-    color: #fff;
-    box-shadow: 3px 3px #4b3232;
+    border: 3px solid red;
+    background-color: #f9c3c3;
+    color: #651c04;
+    box-shadow: 3px 3px orangered;
     font-weight: 800;
 }
 .edu p{
@@ -150,10 +150,10 @@ body{
     border-radius: 10px;
 }
 .certificate:hover{
-    border: 3px solid #4b3232;
-    background-color: #c5b8b8;
-    color: #fff;
-    box-shadow: 3px 3px #4b3232;
+    border: 3px solid red;
+    background-color: #f9c3c3;
+    color: #651c04;
+    box-shadow: 3px 3px orangered;
     font-weight: 800;
 }
 .certificate p{
@@ -188,7 +188,7 @@ body{
 .exp:hover{
     border: 3px solid red;
     background-color: #f9c3c3;
-    color: #fff;
+    color: #651c04;
     box-shadow: 3px 3px orangered;
     font-weight: 800;
 }
@@ -196,6 +196,9 @@ body{
     letter-spacing: 2px;
     font-family: 'Vollkorn', serif;
     margin-top: 10px;
+}
+.exp #position{
+    padding-top: 10px;
 }
 
 /* PROJECT SECTION */
@@ -240,7 +243,7 @@ body{
     background-color: #f7c6c6;
     box-shadow: 5px 5px red;
     font-weight: bold;
-    color: rgb(101, 28, 4);
+    color: #651c04;
 }
 .pro2:hover{
     background-color: #f7c6c6;
@@ -256,6 +259,80 @@ body{
 }
 .paraNButtons p{
    padding: 30px;
+}
+/* RESUME SECTION */
+.resumeImage{
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-image: url(assets/resume.jpg);
+    box-shadow: 5px 5px grey;
+    border-radius: 10px;
+}
+.resume{
+    padding: 15px;
+    background-color: #f5f7e0;
+}
+.resumeNButtons{
+    background-color: #F9FBE7;
+    border-radius: 10px;
+    margin: 30px 400px 15px 400px;
+    padding: 50px;
+    border: 3px solid #191414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: ease-in .5s;
+}
+.resumeNButtons:hover{
+    background-color: #f7c6c6;
+    box-shadow: 5px 5px red;
+    font-weight: bold;
+    color: rgb(101, 28, 4);
+}
+/* CONTACT SECTION */
+.contact{
+    background-color: #F9FBE7;
+    padding: 30px 15px 30px 15px;
+}
+.mycontact{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+.contactcard{
+    font-size: 1.5rem;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #3a2a2a;
+    height: 200px;
+    width: 200px;
+    margin: 15px 0px;
+    transition: ease-in 0.3s;
+    border-radius: 10px;
+}
+.contactcard:hover{
+    border: 3px solid red;
+    background-color: #FEA1A1;
+    color: red;
+    box-shadow: 2px 2px red;
+    font-weight: 800;
+}
+/* FOOTER SECTION */
+.footer{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #ECCDB4;
+}
+.footer span{
+    color: red;
 }
 .buttons{
     padding: 40px 30px 0px 30px;
