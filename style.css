@@ -102,12 +102,12 @@ a{
     height: 200px;
     width: 200px;
     margin: 15px 0px;
-    transition: ease-in 0.3s;
+    transition: ease-in 0.6s;
     border-radius: 10px;
 }
 .skill:hover{
     border: 3px solid red;
-    background-color: #FEA1A1;
+    background-image: linear-gradient(#fea1a2,#fccfd0);
     color: red;
     box-shadow: 2px 2px red;
     font-weight: 800;
@@ -138,7 +138,7 @@ a{
 }
 .edu:hover{
     border: 3px solid red;
-    background-color: #f9c3c3;
+    background-image: linear-gradient(#fea1a2,#fccfd0);
     color: #651c04;
     box-shadow: 3px 3px orangered;
     font-weight: 800;
@@ -171,7 +171,7 @@ a{
 }
 .certificate:hover{
     border: 3px solid red;
-    background-color: #f9c3c3;
+    background-image: linear-gradient(#fea1a2,#fccfd0);
     color: #651c04;
     box-shadow: 3px 3px orangered;
     font-weight: 800;
@@ -202,7 +202,7 @@ a{
     height: 250px;
     width: 300px;
     margin: 15px 0px;
-    transition: ease-in 0.3s;
+    transition: ease-in 0.7s;
     border-radius: 10px;
 }
 .exp:hover{
@@ -241,7 +241,7 @@ a{
     height: 380px;
     margin: 30px 80px;
     border-radius: 10px;
-    transition: ease-in .5s;
+    transition: ease-in 0.7s;
 }
 .pro2{
     display: flex;
@@ -253,7 +253,7 @@ a{
     border-radius: 10px;
     height: 380px;
     margin: 30px 80px;
-    transition: ease-in .5s;
+    transition: ease-in 0.7s;
 }
 .projects img{
     height: 200px;
@@ -262,14 +262,16 @@ a{
     box-shadow: 5px 5px #4b3232;
 }
 .pro1:hover{
-    background-color: #f7c6c6;
+    background-image: linear-gradient(#fea1a2,#fccfd0);
     box-shadow: 5px 5px red;
+    border: 3px solid red;
     font-weight: bold;
     color: #651c04;
 }
 .pro2:hover{
-    background-color: #f7c6c6;
+  background-image: linear-gradient(#fea1a2,#fccfd0);
     box-shadow: 5px 5px red;
+    border: 3px solid red;
     font-weight: bold;
     color: rgb(101, 28, 4);
 }
@@ -307,7 +309,8 @@ a{
     transition: ease-in .5s;
 }
 .resumeNButtons:hover{
-    background-color: #f7c6c6;
+  border: 3px solid red;
+  background-image: linear-gradient(#fea1a2,#fccfd0);
     box-shadow: 5px 5px red;
     font-weight: bold;
     color: rgb(101, 28, 4);
@@ -335,12 +338,12 @@ a{
     height: 200px;
     width: 200px;
     margin: 15px 0px;
-    transition: ease-in 0.3s;
+    transition: ease-in 0.7s;
     border-radius: 10px;
 }
 .contactcard:hover{
     border: 3px solid red;
-    background-color: #FEA1A1;
+    background-image: linear-gradient(#fea1a2,#fccfd0);
     color: red;
     box-shadow: 2px 2px red;
     font-weight: 800;
