@@ -102,14 +102,13 @@ a{
     height: 200px;
     width: 200px;
     margin: 15px 0px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.5s;
     border-radius: 10px;
 }
 .skill:hover{
-    border: 3px solid red;
+    border: 1px solid red;
     background-image: linear-gradient(#fea1a2,#fccfd0);
     color: red;
-    box-shadow: 2px 2px red;
     font-weight: 800;
 }
 .skill img{
@@ -136,14 +135,13 @@ a{
     height: 250px;
     width: 250px;
     margin: 15px 0px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.5s;
     border-radius: 10px;
 }
 .edu:hover{
-    border: 3px solid red;
+    border: 1px solid red;
     background-image: linear-gradient(#fea1a2,#fccfd0);
     color: #651c04;
-    box-shadow: 3px 3px orangered;
     font-weight: 800;
 }
 .edu p{
@@ -169,14 +167,13 @@ a{
     height: 250px;
     width: 250px;
     margin: 15px 0px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.5s;
     border-radius: 10px;
 }
 .certificate:hover{
-    border: 3px solid red;
+    border: 1px solid red;
     background-image: linear-gradient(#fea1a2,#fccfd0);
     color: #651c04;
-    box-shadow: 3px 3px orangered;
     font-weight: 800;
 }
 .certificate p{
@@ -205,14 +202,13 @@ a{
     background-color: #f9fdd3;
     width: 300px;
     margin: 15px 0px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.5s;
     border-radius: 10px;
 }
 .exp:hover{
-    border: 3px solid red;
+    border: 1px solid red;
     background-image: linear-gradient(#fea1a2,#fccfd0);
     color: #651c04;
-    box-shadow: 3px 3px orangered;
     font-weight: 800;
 }
 .exp p{
@@ -243,7 +239,7 @@ a{
     height: 380px;
     margin: 30px 80px;
     border-radius: 10px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.5s;
 }
 .pro2{
     display: flex;
@@ -254,7 +250,7 @@ a{
     border-radius: 10px;
     height: 380px;
     margin: 30px 80px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.5s;
 }
 .projects img{
     height: 200px;
@@ -264,15 +260,13 @@ a{
 }
 .pro1:hover{
     background-image: linear-gradient(#fea1a2,#fccfd0);
-    box-shadow: 5px 5px red;
-    border: 3px solid red;
+    border: 1px solid red;
     font-weight: bold;
     color: #651c04;
 }
 .pro2:hover{
   background-image: linear-gradient(#fea1a2,#fccfd0);
-    box-shadow: 5px 5px red;
-    border: 3px solid red;
+    border: 1px solid red;
     font-weight: bold;
     color: rgb(101, 28, 4);
 }
@@ -309,9 +303,8 @@ a{
     transition: ease-in .1s;
 }
 .resumeNButtons:hover{
-  border: 3px solid red;
+  border: 1px solid red;
   background-image: linear-gradient(#fea1a2,#fccfd0);
-    box-shadow: 5px 5px red;
     font-weight: bold;
     color: rgb(101, 28, 4);
 }
@@ -338,14 +331,13 @@ a{
     width: 200px;
     background-color: #f9fdd3;
     margin: 15px 0px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.5s;
     border-radius: 10px;
 }
 .contactcard:hover{
-    border: 3px solid red;
+    border: 1px solid red;
     background-image: linear-gradient(#fea1a2,#fccfd0);
     color: red;
-    box-shadow: 2px 2px red;
     font-weight: 800;
 }
 /* FOOTER SECTION */
